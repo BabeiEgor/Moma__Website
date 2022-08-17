@@ -1,0 +1,73 @@
+.magazine {
+  justify-content: center;
+  font-family: MoMA sans, Helvetica;
+  display: flex;
+}
+
+.magazine__body {
+  width: 1280px;
+  margin-top: 200px;
+  margin-left: 48px;
+}
+
+.magazine__title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.magazine__content {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  display: flex;
+}
+
+.magazine__content_img-conteiner {
+  justify-content: center;
+  display: flex;
+}
+
+.magazine__content_img {
+  max-width: 100%;
+  min-width: 420px;
+  object-fit: cover;
+}
+
+.magazine__info {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+.magazine__info_how-to-see {
+  color: #00afd7;
+  font-family: MoMA sans, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.magazine__info_title {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.magazine__info_subtitle {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.magazine__info_place {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.magazine__info_date {
+  color: #00000078;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.694ca21c.css.map */

@@ -1,0 +1,32 @@
+.collection {
+  width: 100%;
+  justify-content: center;
+  font-family: MoMA sans, Helvetica;
+  font-weight: 900;
+  display: flex;
+}
+
+.collection__body {
+  width: 1280px;
+  margin-top: 192px;
+  padding: 10px;
+}
+
+.collection__title {
+  font-size: 40px;
+}
+
+.collection__item {
+  margin-top: 100px;
+}
+
+.collection__item_img {
+  height: 500px;
+}
+
+.collection__link {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.2806c01f.css.map */

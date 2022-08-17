@@ -1,0 +1,27 @@
+{
+  "name": "momawebsite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabeiEgor/Moma__Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BabeiEgor/Moma__Website/issues"
+  },
+  "homepage": "https://github.com/BabeiEgor/Moma__Website#readme",
+  "devDependencies": {
+    "@hint/hint-no-inline-styles": "^1.0.13",
+    "@parcel/transformer-sass": "^2.7.0",
+    "hint": "^7.1.1",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.4"
+  }
+}

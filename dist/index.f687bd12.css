@@ -1,0 +1,43 @@
+.member {
+  justify-content: center;
+  display: flex;
+}
+
+.member__body {
+  width: 1184px;
+  height: 248px;
+  background-color: #ff8f1c;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 200px 10px 10px;
+  padding: 48px;
+  display: flex;
+}
+
+.member__text {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: MoMA sans, Helvetica;
+  display: flex;
+}
+
+.member__text_title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.member__text_link {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.member__gif {
+  width: 244px;
+  height: 256px;
+}
+
+/*# sourceMappingURL=index.f687bd12.css.map */

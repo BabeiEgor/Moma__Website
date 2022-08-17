@@ -1,0 +1,39 @@
+$font-style: 'MoMA sans', Helvetica;
+
+.member {
+    display: flex;
+    justify-content: center;
+}
+.member__body {
+    width: 1184px;
+    height: 248px;
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 143, 28, 1);
+    border-radius: 10px;
+    margin: 200px 10px 10px 10px;
+}
+.member__text {
+    font-family: $font-style;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+.member__text_title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+}
+.member__text_link {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.member__gif {
+    width: 244px;
+    height: 256px;
+}

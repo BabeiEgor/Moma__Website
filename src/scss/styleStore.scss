@@ -1,0 +1,38 @@
+$font-style: 'MoMA sans', Helvetica;
+
+.store {
+    display: flex;
+    justify-content: center;
+}
+.store__body {
+    width: 1184px;
+    font-family: $font-style;
+    font-weight: 900;
+    margin-top: 200px;
+    padding: 0 48px;
+}
+.store__title {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.store__content_conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.store__content {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.store__content_img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+.store__content_info {
+    font-size: 22px;
+    margin-top: 20px;
+}

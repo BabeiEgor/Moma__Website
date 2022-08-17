@@ -1,0 +1,49 @@
+$font-style: 'MoMA sans', sans-serif;
+
+.invite{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #444444;
+}
+.invite__body{
+    width: 1280px;
+    margin: auto;   
+    color: white;
+    font-family: $font-style;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    justify-content: space-around;
+}
+.invite__text {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.invite__text_title {
+    font-size: 44px;
+    padding: 8px;
+}
+.invite__text_subtitle {
+    font-size: 22px;
+    top: 15px;
+    padding: 8px;
+}
+.invite__info {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;  
+}
+.invite__info_reserve {
+    font-size: 22px;
+    padding: 8px;
+}
+.invite__info_safely {
+    font-size: 22px;
+    padding: 8px;
+}

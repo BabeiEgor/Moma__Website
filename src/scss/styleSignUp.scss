@@ -1,0 +1,71 @@
+$font-style: 'MoMA sans', Helvetica;
+
+.sign-up {
+
+    display: flex;
+    justify-content: center;
+    font-family: $font-style;
+    padding: 48px;
+    margin-top: 200px;
+}
+.sign-up__body {
+    width: 1280px;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    border: 3px black solid;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up__item {
+    width: 45%;
+    font-weight: 800;
+    font-size: 22px;
+    height: 30px;
+
+}
+.sign-up__mail {
+    width: 45%;
+    border-bottom: 3px black solid;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 12px;
+}
+.sign-up__mail_input {
+    border: none;
+    height: 28px;
+    width: 100%;
+    outline: none;
+}
+
+.sign-up__mail_input::placeholder
+{
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.sign-up__mail_form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.sign-up__mail:hover
+{
+   border-color: rgba(18, 99, 189, 1);
+   color: rgba(18, 99, 189, 1);
+   .sign-up__mail_input::placeholder
+   {
+       opacity: 20%;
+   }   
+}
+
+
+
+

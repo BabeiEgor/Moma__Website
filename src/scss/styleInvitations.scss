@@ -1,0 +1,36 @@
+$font-style: 'MoMA sans', sans-serif;
+
+.invitations {
+    width: 100%;
+    font-family: $font-style;
+    color: black;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.invitations__body {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.invitations__info {
+    height: 150px;
+    width: 50%;
+}
+.invitations__info_text {
+    font-size: 22px;
+    line-height: 95%;
+    height: 50%;
+    padding: 8px;
+}
+.invitations__info_link {
+    font-size: 18px;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    padding: 8px;
+}
+.fa-solid {
+    padding: 0px 0px 0px 10px;
+}

@@ -1,0 +1,30 @@
+$font-style: 'MoMA sans', Helvetica;
+
+.collection {
+    width: 100%;
+    font-family: $font-style;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.collection__body {
+    width: 1280px;
+    margin-top: 192px;
+    padding: 10px;
+}
+.collection__title {
+    font-size: 40px;
+}
+.collection__item {
+    margin-top: 100px;
+}
+.collection__item_img{
+    height: 500px;
+}
+.collection__link {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+

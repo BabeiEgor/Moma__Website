@@ -1,0 +1,64 @@
+$font-style: 'MoMA sans', Helvetica;
+
+.magazine {
+
+    font-family: $font-style;
+    display: flex;
+    justify-content: center;
+}
+.magazine__body {
+    width: 1280px;
+    margin-top: 200px;
+    margin-left: 48px;
+}
+.magazine__title {
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+.magazine__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.magazine__content_img-conteiner{
+    display: flex;
+    justify-content: center;
+
+}
+.magazine__content_img{
+    max-width: 100%;
+    min-width: 420px;
+    object-fit: cover;
+}
+.magazine__info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.magazine__info_how-to-see {
+    font-family: 'MoMA sans', sans-serif;
+    font-size: 22px;
+    color: #00afd7;
+    font-weight: 900;
+}
+.magazine__info_title {
+    font-size: 44px;
+    font-weight: 900;
+}
+.magazine__info_subtitle {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+.magazine__info_place {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.magazine__info_date {
+    font-size: 18px;
+    color: #00000078;
+}
