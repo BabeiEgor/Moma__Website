@@ -40,4 +40,33 @@
   height: 256px;
 }
 
+@media screen and (max-width: 650px) {
+  .member__gif {
+    display: none;
+  }
+
+  .member__text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .member__text {
+    width: 100%;
+  }
+
+  .member__text_title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .member__text_link {
+    font-size: 14px;
+  }
+
+  .member__body {
+    height: 124px;
+  }
+}
+
 /*# sourceMappingURL=index.f687bd12.css.map */

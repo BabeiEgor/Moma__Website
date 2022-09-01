@@ -42,4 +42,14 @@ $font-style: 'MoMA sans', sans-serif;
     float: right;
     object-fit: cover;   
 }
-
+@media screen and (max-width: 510px) {
+    .content__img-conteiner{
+        display: none;
+    }
+    .content__img {
+        display: none;   
+    }  
+    .content__info{
+        width: 100%;
+    }
+}

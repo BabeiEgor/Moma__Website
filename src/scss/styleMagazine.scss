@@ -29,7 +29,6 @@ $font-style: 'MoMA sans', Helvetica;
 }
 .magazine__content_img{
     max-width: 100%;
-    min-width: 420px;
     object-fit: cover;
 }
 .magazine__info {
@@ -61,4 +60,24 @@ $font-style: 'MoMA sans', Helvetica;
 .magazine__info_date {
     font-size: 18px;
     color: #00000078;
+}
+
+@media screen and (max-width:560px) {
+    .magazine__info_title {
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .magazine__info_subtitle {
+        font-size: 12px;
+        margin-top: 15px;
+        font-weight: 100;
+    }
+    .magazine__info_place {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .magazine__info_date {
+        font-size: 12px;
+        color: #00000078;
+    }   
 }

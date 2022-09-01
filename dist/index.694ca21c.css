@@ -30,7 +30,6 @@
 
 .magazine__content_img {
   max-width: 100%;
-  min-width: 420px;
   object-fit: cover;
 }
 
@@ -68,6 +67,29 @@
 .magazine__info_date {
   color: #00000078;
   font-size: 18px;
+}
+
+@media screen and (max-width: 560px) {
+  .magazine__info_title {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .magazine__info_subtitle {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .magazine__info_place {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .magazine__info_date {
+    color: #00000078;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=index.694ca21c.css.map */

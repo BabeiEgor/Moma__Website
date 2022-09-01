@@ -91,3 +91,19 @@
 {
     cursor: pointer;
 }
+
+@media screen and (max-width: 510px)
+{
+    .header__upper {
+        height: 196px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .header__upper_item {
+        display: flex;
+        justify-content: center;
+        
+    }
+}
