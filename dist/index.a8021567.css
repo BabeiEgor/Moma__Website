@@ -88,4 +88,18 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 510px) {
+  .header__upper {
+    height: 196px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .header__upper_item {
+    justify-content: center;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=index.a8021567.css.map */

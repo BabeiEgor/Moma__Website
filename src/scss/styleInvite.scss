@@ -47,3 +47,20 @@ $font-style: 'MoMA sans', sans-serif;
     font-size: 22px;
     padding: 8px;
 }
+@media screen and (max-width: 510px){
+    .invite__info{
+        padding: 8px;
+        font-size: 16;
+    }
+    .invite__text {
+        padding: 8px;
+    }
+    .invite__text_title {
+        font-size: 22px;
+        padding: 8px;
+    }
+    .invite__text_subtitle {
+        font-size: 16px;
+    }
+    
+}

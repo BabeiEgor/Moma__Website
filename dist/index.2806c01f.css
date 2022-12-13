@@ -17,11 +17,15 @@
 }
 
 .collection__item {
+  width: 50%;
   margin-top: 100px;
 }
 
 .collection__item_img {
-  height: 500px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
 }
 
 .collection__link {

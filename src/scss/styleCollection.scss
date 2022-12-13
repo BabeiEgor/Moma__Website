@@ -17,9 +17,13 @@ $font-style: 'MoMA sans', Helvetica;
 }
 .collection__item {
     margin-top: 100px;
+    width: 50%;
 }
 .collection__item_img{
-    height: 500px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
 }
 .collection__link {
     font-size: 18px;

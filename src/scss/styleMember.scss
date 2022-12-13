@@ -15,6 +15,7 @@ $font-style: 'MoMA sans', Helvetica;
     border-radius: 10px;
     margin: 200px 10px 10px 10px;
 }
+
 .member__text {
     font-family: $font-style;
     display: flex;
@@ -36,4 +37,29 @@ $font-style: 'MoMA sans', Helvetica;
 .member__gif {
     width: 244px;
     height: 256px;
+}
+
+@media screen  and (max-width: 650px) {
+    .member__gif {
+        display: none;
+    }
+    .member__text{
+        width: 100%;
+    }
+}
+@media screen  and (max-width: 450px) {
+
+    .member__text{
+        width: 100%;
+    }
+    .member__text_title {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .member__text_link {
+        font-size: 14px;
+    }
+    .member__body{
+        height: 124px;
+    }
 }
